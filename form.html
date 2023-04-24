@@ -1,0 +1,24 @@
+<!-- form.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stock Ticker Form</title>
+  </head>
+  <body>
+    <form action="/process" method="post">
+      <label>
+        <input type="radio" name="input-type" value="symbol"> Symbol
+      </label>
+      <label>
+        <input type="radio" name="input-type" value="company"> Company
+      </label>
+      <br>
+      <label>
+        Enter stock ticker symbol or company name:
+        <input type="text" name="input-field">
+      </label>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
